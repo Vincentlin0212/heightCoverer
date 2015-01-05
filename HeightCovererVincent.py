@@ -124,18 +124,7 @@ class HightFrame(wx.Frame):
 			self.btnSubmitT.Show(False)
 			self.btnSubmitT.Show(False)
 			self.response2.Show(False)
-'''
-print("What's your name?")
-name = raw_input()
-print("How tall are you (in centimeters)?")
-tall = raw_input()
-tall = int(tall)
-feet = int(tall / 30.48)
-inch = tall / 2.54
-inches = inch - feet * 12
 
-print("Nice to meet you " + name + ", you are " + str(feet) + " and " + str(inches) + " inches tall.")
-'''
 # ----------- Main Program Below -----------------
 app = wx.App(False)
 frame = HightFrame(None)
